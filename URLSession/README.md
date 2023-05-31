@@ -110,3 +110,108 @@
 
 }
 ```
+
+# Making a GET request from a dummy API
+### https://jsonplaceholder.typicode.com
+
+For this GET request, I did things a little bit differently from the tutorial I followed. The code is more sanctioned off into sections, which is more to my taste.
+
+Just like with the Apple Music API, we get a simple JSON object that we use to print.
+
+```swift
+**private** **func** getJSONData(url_string: String) {
+
+    // Check URL is valid
+
+    **guard** **let** url = URL(string: url_string)
+
+    **else** {
+
+        print("Invalid URL.")
+
+        **return**
+
+    }
+
+    **let** session = URLSession.shared
+
+    **let** task = session.dataTask(with: url) {(data, response, error) **in**
+
+        **if** **let** error = error {
+
+            print("Error: \(error)")
+
+            **return**
+
+        }
+
+        // Check if Response was recieved
+
+        **guard** **let** response = response **as**? HTTPURLResponse **else** {
+
+            print("Invalid Response.")
+
+            **return**
+
+        }
+
+        // Check Status code
+
+        **guard**(200...299).contains(response.statusCode) **else** {
+
+            print("Invalid Status Code: \(response.statusCode)")
+
+            **return**
+
+        }
+
+        // Check if data was received
+
+        **guard** **let** data = data **else** {
+
+            print("Invalid Data. No Data received.")
+
+            **return**
+
+        }
+
+        // Convert data to string and print it
+
+        **let** dataString = String(data: data, encoding: .utf8)
+
+        print("Data: \(dataString)")
+
+        print("Type: \(type(of:dataString))\n")
+
+        **do** {
+
+            **let** dataJson = **try** JSONSerialization.jsonObject(with: data)
+
+            print("Data JSON:\n \(dataJson)")
+
+            print("Type: \(type(of:dataJson))")
+
+            **if** **let** jsonDictionary = dataJson **as**? [String: **Any**],
+
+               **let** title = jsonDictionary["title"] **as**? String {
+
+                torque = title
+
+            }
+
+        } **catch** {
+
+            print("Error converting data to JSON format: \(error)")
+
+        }
+
+        //torque = dataString ??
+
+    }
+
+    task.resume()
+
+}
+
+```
+
