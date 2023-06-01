@@ -1,3 +1,4 @@
+# Closures
 Say we want to create a filter that gets students with topScore's of over 80
 ```swift
 func studentFilter(student: Student) -> Bool {					
@@ -16,3 +17,7 @@ let a = studentArray.sorted {
 	$0.topScore > $1.topScore
 }
 ```
+
+# <span style="color:#fc7bb3">@escaping</span> - What does that mean?
+When you see @escaping, that is referring to an **Escaping Closure**. This type of closure **outlives the function that it is contained inside of.** This means that the function can return before the closure is called.
+
