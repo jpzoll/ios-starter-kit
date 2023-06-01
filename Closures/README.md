@@ -19,5 +19,5 @@ let a = studentArray.sorted {
 ```
 
 # <span style="color:#fc7bb3">@escaping</span> - What does that mean?
-When you see @escaping, that is referring to an **Escaping Closure**. This type of closure **outlives the function that it is contained inside of.** This means that the function can return before the closure is called.
+When you see @escaping, that is referring to an **Escaping Closure**. This type of closure is one that **outlives the function that it is contained inside of.** This means that the function can return before the closure is called.
 
