@@ -24,7 +24,7 @@ Here is what our ContentView then looks like. Here are the steps we follow:
 4. Modify your views with styling that pleases you!
 ```swift
 struct ContentView: View {
-	let items: [Item] = [
+    let items: [Item] = [
     Item(type: "Computer Science", value: 80),
     Item(type: "Physics", value: 88),
     Item(type: "iSchool", value: 63),
