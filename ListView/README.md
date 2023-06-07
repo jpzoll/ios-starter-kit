@@ -39,7 +39,6 @@ struct TenDayWindSpeedView: View {
     }
 }
 ```
-<center>
-<img width="300" alt="listViewExample" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
-</center>
+
+<img width="300" alt="10DayForecast" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/f6da892b-da55-4eac-a1e4-c61c81a426a8">
 
