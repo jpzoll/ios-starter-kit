@@ -41,5 +41,5 @@ struct TenDayWindSpeedView: View {
 }
 ```
 
-<img width="300" alt="10DayForecast" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/f6da892b-da55-4eac-a1e4-c61c81a426a8">
+[[10DayForecast.png]]
 
