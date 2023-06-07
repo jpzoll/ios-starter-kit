@@ -38,6 +38,8 @@ struct TenDayWindSpeedView: View {
         .foregroundColor(.white)
     }
 }
-```<img width="387" alt="ny" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
+```
+
+<img width="387" alt="ny" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
 
 
