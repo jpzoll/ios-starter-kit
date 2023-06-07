@@ -1,3 +1,4 @@
+# 10-Day Forecast Example
 Say I want to create a list of days with their low and high temperatures as you see in typical weather apps. For example, we will use the following arbitrary data:
 ```swift
 let highTemperatures = [52, 55, 54, 58, 57, 55, 53, 53, 53, 53]
