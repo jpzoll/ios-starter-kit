@@ -13,7 +13,7 @@ struct TenDayWindSpeedView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-            Text("10-DAY WIND SPEED").font(.caption).opacity(0.5)
+            Text("10-DAY FORECAST").font(.caption).opacity(0.5)
             List(days.indices, id: \.self) { i in
                 HStack {
                     Text(days[i])
