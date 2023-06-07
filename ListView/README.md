@@ -40,10 +40,6 @@ struct TenDayWindSpeedView: View {
 }
 ```
 <center>
-<img width="387" alt="ny" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
+<img width="500" alt="listViewExample" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
 </center>
-
-<div style="text-align:center">
-    <img width="387" alt="ny" src="https://github.com/jpzoll/ios-starter-kit/assets/55609216/c35ff78f-3a23-42cb-a821-84fc6597be40">
-</div>
 
