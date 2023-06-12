@@ -2,7 +2,7 @@
 A struct or class is a means of encapsulating components in your application that represent objects. This is a pillar in **Object-Oriented Programming** known as **Encapsulation**.
 
 ## What is the difference between a struct and a class?
-A struct is a lightweight **value** type of encapsulation of objects. This means that when you assign a variable to an instance of a struct, that instance stands alone as an individual value. If you create a variable that is assigned to the original instance, that will be a *duplicate* of the original instance. Let's see this example:
+A struct is a lightweight **value** type of encapsulation of objects. This means that when you assign a variable to an instance of a struct, that instance stands alone as an individual value. If you create a variable that is assigned to the original instance, that will be a *duplicate* of the original instance. Let's see this example: 
 ```swift
 struct Computer {
 	var id: Int
