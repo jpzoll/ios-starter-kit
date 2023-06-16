@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Error Handling/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,9 +100,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10f1beefc2304eb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Error Handling/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -168,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type Safety & Type Inference/README.md",
+                "file": "Error Handling/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type Safety & Type Inference/README.md",
+                "file": "Error Handling/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type Safety & Type Inference/README.md"
+                "file": "Error Handling/README.md"
               }
             }
           }
@@ -229,12 +241,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "35035c0a54eea3e6",
+  "active": "8fc83aa992acaf73",
   "lastOpenFiles": [
-    "Variables & Constants/README.md",
-    "Type Safety & Type Inference/README.md",
-    "Type Safety & Type Inference",
     "README.md",
+    "d.md",
+    "Type Safety & Type Inference/README.md",
+    "Error Handling",
+    "Variables & Constants/README.md",
+    "Type Safety & Type Inference",
+    "Error Handling/README.md",
     "Variables & Constants",
     "Structs & Classes/README.md",
     "Numbers.md",
@@ -253,7 +268,6 @@
     "ScrollView",
     "Pasted image 20230602122817.png",
     "Charts",
-    "Closures/README.md",
-    "Closures"
+    "Closures/README.md"
   ]
 }
