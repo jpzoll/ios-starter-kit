@@ -76,9 +76,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "50e3735f24451d91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Variables & Constants/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -144,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Variables & Constants/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Variables & Constants/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structs & Classes/README.md"
+                "file": "Variables & Constants/README.md"
               }
             }
           }
@@ -205,10 +217,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "538ab65a89c7e56a",
+  "active": "50e3735f24451d91",
   "lastOpenFiles": [
-    "Timer/README.md",
+    "README.md",
+    "Variables & Constants/README.md",
+    "Variables & Constants",
     "Structs & Classes/README.md",
+    "Numbers.md",
+    "Timer/README.md",
     "Structs & Classes",
     "ScrollView/README.md",
     "Timer",
@@ -223,7 +239,6 @@
     "ScrollView",
     "Pasted image 20230602122817.png",
     "Charts",
-    "README.md",
     "Closures/README.md",
     "Closures"
   ]
