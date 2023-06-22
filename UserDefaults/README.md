@@ -1,5 +1,5 @@
 UserDefaults is a means of storing small pieces of data across multiple iterations of your application. For example, if you have a piece of text that you would like to save and persist after the user closes and reopens the app, then UserDefaults is a perfect choice for you.
-# Example: Storing a String
+# Example: Saving a String
 *Credit To Idently on YouTube: [https://youtu.be/fnHxRvryVMM]*
 The following is syntax for storing a string inside of UserDefaults:
 ```swift
@@ -23,3 +23,10 @@ Section(header: Text("ACTIONS:")) {
 Say we were to type in "Spider-Man: Across The Spider-Verse" and hit enter. Here is one version of an app that has these functionalities. This is what it looks like AFTER saving, closing, and reopening the app:
 
 ![[Pasted image 20230622122013.png]]
+
+# Example: Deleting a String from UserDefaults
+In order to remove a string value from UserDefaults, we can do the following:
+```swift
+UserDefaults.standard.removeObject(forKey: "MY_DATA")
+```
+If you attempt to call the string's key from UserDefaults after doing this (i.e. printing it), you will see that the value is now **nil**.
