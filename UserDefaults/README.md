@@ -1,4 +1,4 @@
-UserDefaults is a means of storing small pieces of data across multiple iterations of your application. For example, if you have a piece of text that you would like to save and persist after the user closes and reopens the app, then UserDefaults is a perfect choice for you.
+iUserDefaults is a means of storing small pieces of data across multiple iterations of your application. For example, if you have a piece of text that you would like to save and persist after the user closes and reopens the app, then UserDefaults is a perfect choice for you.
 # Example: Saving a String
 *Credit To Idently on YouTube: [https://youtu.be/fnHxRvryVMM]*
 The following is syntax for storing a string inside of UserDefaults:
