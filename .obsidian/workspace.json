@@ -153,8 +153,12 @@
             "id": "f6b5b4834b4d59b3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Loops/README.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -224,6 +228,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Loops/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -240,6 +245,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Loops/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -261,7 +267,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Loops/README.md"
+              }
             }
           }
         ]
@@ -281,9 +289,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fc83aa992acaf73",
+  "active": "f6b5b4834b4d59b3",
   "lastOpenFiles": [
-    "Loops/Loops.md",
+    "Loops/README.md",
     "CoreData/CoreData.md",
     "Loops",
     "CoreData",
