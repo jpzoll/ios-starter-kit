@@ -9,43 +9,28 @@ let newPeople = people.sorted(by: {(s1: String, s2: String) -> Bool in
 # Shorthand Syntax
 In many cases, the full syntax of closures are complicated and hard to read. For this reason, we are able to cut down to a much more shorthand version of closures used in our code
 ```swift
-**let** newPeople = people.sorted(by: {(s1: String, s2: String) -> Bool **in**
-
-    **return** s2 > s1
-
+// Putting closure as a parameter of another function
+let newPeople = people.sorted(by: {(s1: String, s2: String) -> Bool in
+    return s2 > s1
 })
-
 print(newPeople)
 
-  
-
-**let** newPeople2 = people.sorted(by: {(s1, s2) -> Bool **in**
-
-    **return** s2 > s1
-
+let newPeople2 = people.sorted(by: {(s1, s2) -> Bool in
+    return s2 > s1
 })
-
 print(newPeople2)
 
-  
-
-**let** newPeople3 = people.sorted(by: {(s1, s2) **in**
-
-    **return** s2 > s1
-
+let newPeople3 = people.sorted(by: {(s1, s2) in
+    return s2 > s1
 })
-
-  
 
 print(newPeople3)
 
-  
-
-**let** newPeople4 = people.sorted {
-
-    **return** $0 < $1
-
+let newPeople4 = people.sorted {
+    return $0 < $1
 }
+
+print(newPeople4)
 ```
 
 # Passing multiple closures into a function
