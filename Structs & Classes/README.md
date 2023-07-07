@@ -47,3 +47,43 @@ print(c1.manufacturer)
 // OUTPUT: Microsoft
 ```
 
+# How do you make a struct mutable?
+By default, a struct you create that includes a method inside of it is not mutable by default. The following as a example:
+```swift
+struct Employee {
+    let name: String
+    var vacationRemaining: Int
+
+    mutating func takeVacation(days: Int) {
+        vacationRemaining -= days
+        print("\(vacationRemaining) days of vacation remaining!")
+    }
+}
+```
+By default, if you try to call for example:
+```swift
+var e1 = Employee(name: "Student", vacationRemaining: 14)
+e1.takeVacation(days: 2)
+```
+Swift will complain. This is because structs by default are read-only. The way to get around this is by using the **Mutable** keyword:
+```swift
+struct Employee {
+    let name: String
+    var vacationRemaining = 14
+
+    mutating func takeVacation(days: Int) {
+        vacationRemaining -= days
+        print("\(vacationRemaining) days of vacation remaining!")
+    }
+}
+```
+# How is instantiating a Struct like calling a function?
+Under the hood, structs have an **init** function, which initializes an instance of a struct with all its data and methods. For the Employee class above, the following can be seen as a function call:
+```swift
+var e1 = Employee(name: "Student", vacationRemaining: 14)
+```
+It is the same as saying:
+```swift
+var e1 = Employee.init(name: "Student", vacationRemaining: 14)
+```
+Swift being smart enough to do the same thing without the init function explicitly called is syntactical sugar.

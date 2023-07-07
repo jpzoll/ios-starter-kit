@@ -203,7 +203,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "100 Days of SwiftUI/Day 8 - Closures.md",
+                "file": "Structs & Classes/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -276,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 Days of SwiftUI/Day 8 - Closures.md",
+                "file": "Structs & Classes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -293,7 +293,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "100 Days of SwiftUI/Day 8 - Closures.md",
+                "file": "Structs & Classes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -316,7 +316,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 Days of SwiftUI/Day 8 - Closures.md"
+                "file": "Structs & Classes/README.md"
               }
             }
           }
@@ -339,8 +339,8 @@
   },
   "active": "4380978905763a2c",
   "lastOpenFiles": [
-    "Errors/README.md",
     "100 Days of SwiftUI/Day 8 - Closures.md",
+    "Errors/README.md",
     "100 Days of SwiftUI/Day 7 - Functions.md",
     "Errors",
     "Closures/README.md",
