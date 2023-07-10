@@ -117,3 +117,82 @@ The following are the possible access control modifiers one can apply to struct 
 - **privatefile**
 
 **private(set)** allows you to get the property itself, *but you cannot reassign its value*.
+
+# Example Structs
+```swift
+/*
+GLIDER STRUCT
+ */
+
+struct Glider {
+    let model: String
+    let wingSpan: Int
+    
+    private var gasLvl: Double {
+        didSet {
+            print("GAS LVL: \(gasLvl)")
+        }
+    }
+    public var cargoOnBoard: [String]
+    private var wheelsOut: Bool = false
+    
+    private(set) var isFlying: Bool {
+        willSet {
+        }
+        didSet {
+            if (isFlying != oldValue) {
+                if (isFlying == true) {
+                    print("Taking off... and we're off! :D")
+                    gasLvl -= 30
+                } else {
+                    print("Landing... landed safely :)")
+                    gasLvl -= 20
+                }
+            }
+            else
+            {
+                if isFlying { print("We're already in the air friend :)") }
+                else { print("We're already chilling on the Earth :)")}
+            }
+        }
+    }
+    
+    init(model: String, wingSpan: Int) {
+        // constants are set, but variables have default set lvls upon production
+        self.model = model
+        self.wingSpan = wingSpan
+        
+        self.gasLvl = 100
+        self.cargoOnBoard = []
+        self.wheelsOut = false
+        
+        self.isFlying = false
+        
+        
+        
+    }
+    
+    mutating func fillGas(amt: Double) {
+        if (gasLvl + amt) > 100 {
+            gasLvl = 100
+        } else {
+            gasLvl += amt
+        }
+    }
+    
+    mutating func storeCargo(_ newCargo: String) {
+        if cargoOnBoard.count == 5 {
+            print("Cargo at max capacity (5). Please use other means of storage")
+        } else {
+            cargoOnBoard.append(newCargo)
+        }
+    }
+    
+    mutating func takeOff() { isFlying = true}
+    mutating func land() { isFlying = false }
+    
+}
+
+var nausicaasGlider = Glider(model: "Wind Valley Inc.", wingSpan: 50)
+
+```
