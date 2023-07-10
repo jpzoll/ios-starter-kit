@@ -54,7 +54,7 @@ struct Employee {
     let name: String
     var vacationRemaining: Int
 
-    mutating func takeVacation(days: Int) {
+    func takeVacation(days: Int) {
         vacationRemaining -= days
         print("\(vacationRemaining) days of vacation remaining!")
     }
@@ -87,3 +87,33 @@ It is the same as saying:
 var e1 = Employee.init(name: "Student", vacationRemaining: 14)
 ```
 Swift being smart enough to do the same thing without the init function explicitly called is syntactical sugar.
+
+# Static Properties & Methods
+Within Structs, we can also set attributes and methods that refer to the actual struct itself, not just some instance.
+```swift
+struct Champion {
+    static var name = "Levi Ackerman"
+    static var rating = 99
+    static var items = [String]()
+    
+    static func addItem(_ item: String) {
+        items.append(item)
+    }
+}
+
+print(Champion.items)
+Champion.addItem("Sword")
+// OUTPUT: []
+Champion.addItem("ODM Gear")
+// OUTPUT: ["Sword", "ODM Gear"]
+print(Champion.items)
+
+```
+# Access Control Modifiers
+The following are the possible access control modifiers one can apply to struct properties and methods
+- **private**
+- **private(set)**
+- **public**
+- **privatefile**
+
+**private(set)** allows you to get the property itself, *but you cannot reassign its value*.
