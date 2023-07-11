@@ -1,4 +1,8 @@
 # Classes - Inheritance
+**Note: I use the following term interchangably:**
+- Parent Class = Base Class = = Super Class
+- Child Class = Sub Class
+
 Here is an example of inheritance in Swift
 ```swift
 class Employee {
