@@ -220,9 +220,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "606e910040738ac9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classes/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 17
+        "currentTab": 18
       }
     ],
     "direction": "vertical"
@@ -288,7 +300,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Classes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -305,7 +317,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Classes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -328,7 +340,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structs & Classes/README.md"
+                "file": "Classes/README.md"
               }
             }
           }
@@ -349,10 +361,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cc34117c31309a55",
+  "active": "606e910040738ac9",
   "lastOpenFiles": [
     "Untitled.md",
+    "Classes/README.md",
     "Structs & Classes/README.md",
+    "Classes",
     "100 Days of SwiftUI/Day 8 - Closures.md",
     "Errors/README.md",
     "100 Days of SwiftUI/Day 7 - Functions.md",
@@ -382,7 +396,6 @@
     "Variables & Constants",
     "Numbers.md",
     "Timer/README.md",
-    "Structs & Classes",
     "ScrollView/README.md",
     "ListView/README.md",
     "ListView/img/10DayForecast.png",
