@@ -46,6 +46,16 @@ print(c1.manufacturer)
 ```
 // OUTPUT: Microsoft
 ```
+# Structs Vs. Classes | Distinctions Listed
+- I have an instance of a class called variable A. If I create a variable B which is an duplicate of variable A, then A and B both point to the same piece of data. That means if I change the properties (i.e. an attribute) of variable A, then B changes in the same way.
+	- This holds even if A is a var and B is a constant
+- Classes offer **Inheritance**, which is when a class builds off the functionality of another
+	- Think of it as one class "inheriting" the methods and properties of another class
+- Classes will NOT generate a memberwise initializer. That means you have 2 options when generating a class
+	- Create your own **custom initializer**
+	- Have default values for all your attributes
+- Classes can have a **deinitializer**
+- Even if a class instance is a constant, its variable properties can change
 
 # How do you make a struct mutable?
 By default, a struct you create that includes a method inside of it is not mutable by default. The following as a example:

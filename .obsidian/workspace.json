@@ -208,9 +208,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cc34117c31309a55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structs & Classes/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 16
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -337,8 +349,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4380978905763a2c",
+  "active": "cc34117c31309a55",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Structs & Classes/README.md",
     "100 Days of SwiftUI/Day 8 - Closures.md",
     "Errors/README.md",
     "100 Days of SwiftUI/Day 7 - Functions.md",
@@ -366,7 +380,6 @@
     "Variables & Constants/README.md",
     "Type Safety & Type Inference",
     "Variables & Constants",
-    "Structs & Classes/README.md",
     "Numbers.md",
     "Timer/README.md",
     "Structs & Classes",
