@@ -239,14 +239,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Other/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "957612465c056cd8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 19
+        "currentTab": 20
       }
     ],
     "direction": "vertical"
@@ -312,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structs & Classes/README.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -352,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structs & Classes/README.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -373,14 +385,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3a1e82f1ca193a3",
+  "active": "8fc83aa992acaf73",
   "lastOpenFiles": [
+    "CODE SNIPPETS/Day12.swift",
+    "CODE SNIPPETS/Contents.swift",
+    "CODE SNIPPETS/Day12.xcplaygroundpage/Contents.swift",
+    "CODE SNIPPETS/Day12.xcplaygroundpage",
+    "CODE SNIPPETS",
+    "Other/README.md",
+    "Untitled 1.md",
+    "Pasted image 20230622122013.png",
+    "Pasted image 20230622121828.png",
+    "Pasted image 20230602122817.png",
+    "Loops/README.md",
+    "Error Handling/README.md",
+    "Structs & Classes/README.md",
     "Pasted image 20230712112454.png",
     "Classes/README.md",
-    "Other/README.md",
     "Other",
     "Untitled.md",
-    "Structs & Classes/README.md",
     "Classes",
     "100 Days of SwiftUI/Day 8 - Closures.md",
     "Errors/README.md",
@@ -390,31 +413,21 @@
     "Arrays, Sets, Dicts, Tuples/README.md.md",
     "Arrays, Sets, Dicts, Tuples",
     "README.md",
-    "Loops/README.md",
     "CoreData/CoreData.md",
     "Loops",
     "CoreData",
-    "Error Handling/README.md",
     "d.md",
     "100 Days of SwiftUI/Day 5 - Conditions.md",
     "100 Days of SwiftUI/Day 4 - Complex Data Types, part 2.md",
     "UserDefaults/README.md",
-    "100 Days of SwiftUI",
-    "Pasted image 20230622122013.png",
     "Type Safety & Type Inference/README.md",
     "Charts/README.md",
-    "Pasted image 20230622121828.png",
-    "UserDefaults",
-    "Error Handling",
     "Variables & Constants/README.md",
-    "Type Safety & Type Inference",
     "Numbers.md",
     "Timer/README.md",
     "ScrollView/README.md",
     "ListView/README.md",
     "ListView/img/10DayForecast.png",
-    "10DayForecast.png",
-    "URLSession/README.md",
-    "Pasted image 20230602122817.png"
+    "10DayForecast.png"
   ]
 }
