@@ -232,9 +232,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d3a1e82f1ca193a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classes/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 19
       }
     ],
     "direction": "vertical"
@@ -361,10 +373,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "606e910040738ac9",
+  "active": "d3a1e82f1ca193a3",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Other/README.md",
     "Classes/README.md",
+    "Other",
+    "Untitled.md",
     "Structs & Classes/README.md",
     "Classes",
     "100 Days of SwiftUI/Day 8 - Closures.md",
@@ -393,7 +407,6 @@
     "Error Handling",
     "Variables & Constants/README.md",
     "Type Safety & Type Inference",
-    "Variables & Constants",
     "Numbers.md",
     "Timer/README.md",
     "ScrollView/README.md",

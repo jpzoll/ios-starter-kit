@@ -60,3 +60,5 @@ Managed some peeps!
 
 */
 ```
+# Automatic Reference Counting (ARC)
+**Automatic Reference Counting** refers to Swifts internal counting of the number of instances for a class. When we create a new object instance the count goes up by 1. When we delete an instance we go down by 1. When the count reaches 0, that means there are no more instances and we call a deinitalizer.
