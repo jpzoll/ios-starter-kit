@@ -239,7 +239,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Structs & Classes/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -312,7 +312,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Structs & Classes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -329,7 +329,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Structs & Classes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -352,7 +352,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/README.md"
+                "file": "Structs & Classes/README.md"
               }
             }
           }
@@ -375,8 +375,9 @@
   },
   "active": "d3a1e82f1ca193a3",
   "lastOpenFiles": [
-    "Other/README.md",
+    "Pasted image 20230712112454.png",
     "Classes/README.md",
+    "Other/README.md",
     "Other",
     "Untitled.md",
     "Structs & Classes/README.md",
