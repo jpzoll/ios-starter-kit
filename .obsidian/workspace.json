@@ -251,7 +251,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Protocols/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -324,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Protocols/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/README.md",
+                "file": "Protocols/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/README.md"
+                "file": "Protocols/README.md"
               }
             }
           }
@@ -387,6 +387,9 @@
   },
   "active": "957612465c056cd8",
   "lastOpenFiles": [
+    "Classes/README.md",
+    "Protocols/README.md",
+    "Protocols",
     "Untitled 1.md",
     "Error Handling/README.md",
     "CODE SNIPPETS/Day12.swift",
@@ -401,7 +404,6 @@
     "Loops/README.md",
     "Structs & Classes/README.md",
     "Pasted image 20230712112454.png",
-    "Classes/README.md",
     "Other",
     "Untitled.md",
     "Classes",
@@ -414,7 +416,6 @@
     "Arrays, Sets, Dicts, Tuples",
     "README.md",
     "CoreData/CoreData.md",
-    "Loops",
     "d.md",
     "100 Days of SwiftUI/Day 5 - Conditions.md",
     "100 Days of SwiftUI/Day 4 - Complex Data Types, part 2.md",
