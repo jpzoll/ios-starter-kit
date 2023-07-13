@@ -251,7 +251,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Classes/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -324,7 +324,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Classes/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +341,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "Classes/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,7 +364,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.md"
+                "file": "Classes/README.md"
               }
             }
           }
@@ -385,20 +385,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fc83aa992acaf73",
+  "active": "957612465c056cd8",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "Error Handling/README.md",
     "CODE SNIPPETS/Day12.swift",
     "CODE SNIPPETS/Contents.swift",
     "CODE SNIPPETS/Day12.xcplaygroundpage/Contents.swift",
     "CODE SNIPPETS/Day12.xcplaygroundpage",
     "CODE SNIPPETS",
     "Other/README.md",
-    "Untitled 1.md",
     "Pasted image 20230622122013.png",
     "Pasted image 20230622121828.png",
     "Pasted image 20230602122817.png",
     "Loops/README.md",
-    "Error Handling/README.md",
     "Structs & Classes/README.md",
     "Pasted image 20230712112454.png",
     "Classes/README.md",
@@ -415,7 +415,6 @@
     "README.md",
     "CoreData/CoreData.md",
     "Loops",
-    "CoreData",
     "d.md",
     "100 Days of SwiftUI/Day 5 - Conditions.md",
     "100 Days of SwiftUI/Day 4 - Complex Data Types, part 2.md",

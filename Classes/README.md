@@ -60,5 +60,37 @@ Managed some peeps!
 
 */
 ```
+## Overriding a Parent's initializer
+Say we have the following base class:
+```swift
+class Animal {
+    let numLegs: Int
+    init(numLegs: Int) {
+        self.numLegs = numLegs
+    }
+}```
+If we create say a Cat class that is a subclass of Animal (that has a new property), we can either create a new initializer OR override the Animal class' initializer. If we want to do the former, then we pass our new property as an argument and then call **super** to get the Animal class's init for the old properties:
+```swift
+class Cat: Animal {
+    let isTame: Bool
+    
+    init(isTame: Bool) {
+        self.isTame = isTame
+        super.init(numLegs: 4)
+    }
+}```
+If we want to do the former, then we must pass in the SAME arguments as the base class' initializer:
+```swift
+class Cat: Animal {
+    let isTame: Bool
+    
+    override init(numLegs: Int) {
+    // **WE CANNOT PASS IN isTame as an argument or Swift will complain!**
+        self.isTame = true
+        super.init(numLegs: 4)
+    }
+}```
+
 # Automatic Reference Counting (ARC)
 **Automatic Reference Counting** refers to Swifts internal counting of the number of instances for a class. When we create a new object instance the count goes up by 1. When we delete an instance we go down by 1. When the count reaches 0, that means there are no more instances and we call a deinitalizer.
+
