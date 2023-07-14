@@ -1,4 +1,15 @@
-// Create a book struct with two memberwise initializers
+/* 
+Say I have a Book struct that has title, pageCount, and readingHours as properties.
+If I want the option for 2 possible initializers, one being the Memberwise Initializer (default)
+and one that takes in title, pageCount, and then assigns readingHours as
+the number of pages divided by 50, how could I implement that?
+*/
+
+// 1. Name the practice
+// 2. Code it
+
+// 1. Extension
+// 2. See below
 
 struct Book {
     let title: String
