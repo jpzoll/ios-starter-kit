@@ -387,6 +387,8 @@
   },
   "active": "957612465c056cd8",
   "lastOpenFiles": [
+    "100 Days of SwiftUI/Day 14 - Optionals.swift",
+    "100 Days of SwiftUI/Contents.swift",
     "Classes/README.md",
     "Protocols/README.md",
     "Protocols",
@@ -413,7 +415,6 @@
     "Errors",
     "Closures/README.md",
     "Arrays, Sets, Dicts, Tuples/README.md.md",
-    "Arrays, Sets, Dicts, Tuples",
     "README.md",
     "CoreData/CoreData.md",
     "d.md",
@@ -426,7 +427,6 @@
     "Numbers.md",
     "Timer/README.md",
     "ScrollView/README.md",
-    "ListView/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
