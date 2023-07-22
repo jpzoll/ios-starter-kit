@@ -256,9 +256,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a2ebc0844c7708e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TextField/TextField with Two Way Binding.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 20
+        "currentTab": 21
       }
     ],
     "direction": "vertical"
@@ -324,7 +336,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Protocols/README.md",
+                "file": "TextField/TextField with Two Way Binding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -341,7 +353,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Protocols/README.md",
+                "file": "TextField/TextField with Two Way Binding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -364,7 +376,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Protocols/README.md"
+                "file": "TextField/TextField with Two Way Binding.md"
               }
             }
           }
@@ -385,12 +397,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "957612465c056cd8",
+  "active": "1a2ebc0844c7708e",
   "lastOpenFiles": [
+    "Untitled 2.md",
+    "TextField/TextField with Two Way Binding.md",
+    "Protocols/README.md",
+    "TextField",
     "100 Days of SwiftUI/Day 14 - Optionals.swift",
     "100 Days of SwiftUI/Contents.swift",
     "Classes/README.md",
-    "Protocols/README.md",
     "Protocols",
     "Untitled 1.md",
     "Error Handling/README.md",
@@ -408,11 +423,9 @@
     "Pasted image 20230712112454.png",
     "Other",
     "Untitled.md",
-    "Classes",
     "100 Days of SwiftUI/Day 8 - Closures.md",
     "Errors/README.md",
     "100 Days of SwiftUI/Day 7 - Functions.md",
-    "Errors",
     "Closures/README.md",
     "Arrays, Sets, Dicts, Tuples/README.md.md",
     "README.md",
@@ -426,7 +439,6 @@
     "Variables & Constants/README.md",
     "Numbers.md",
     "Timer/README.md",
-    "ScrollView/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
