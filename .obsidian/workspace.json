@@ -268,9 +268,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "acc0a66e58c1fbe5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Picker/Simple Name Picker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 21
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -336,7 +348,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TextField/TextField with Two Way Binding.md",
+                "file": "Picker/Simple Name Picker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -353,7 +365,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TextField/TextField with Two Way Binding.md",
+                "file": "Picker/Simple Name Picker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,7 +388,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TextField/TextField with Two Way Binding.md"
+                "file": "Picker/Simple Name Picker.md"
               }
             }
           }
@@ -397,10 +409,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a2ebc0844c7708e",
+  "active": "acc0a66e58c1fbe5",
   "lastOpenFiles": [
-    "Untitled 2.md",
+    "Picker",
     "TextField/TextField with Two Way Binding.md",
+    "Picker/Simple Name Picker.md",
+    "Untitled 2.md",
     "Protocols/README.md",
     "TextField",
     "100 Days of SwiftUI/Day 14 - Optionals.swift",
@@ -437,8 +451,6 @@
     "Type Safety & Type Inference/README.md",
     "Charts/README.md",
     "Variables & Constants/README.md",
-    "Numbers.md",
-    "Timer/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
