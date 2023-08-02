@@ -316,9 +316,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6176c1842d1da6bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Views/Struct Views Vs. Class Views.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 25
+        "currentTab": 26
       }
     ],
     "direction": "vertical"
@@ -384,7 +396,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Alerts/Alerts.md",
+                "file": "Views/Struct Views Vs. Class Views.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -401,7 +413,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Alerts/Alerts.md",
+                "file": "Views/Struct Views Vs. Class Views.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -424,7 +436,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Alerts/Alerts.md"
+                "file": "Views/Struct Views Vs. Class Views.md"
               }
             }
           }
@@ -445,12 +457,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc7af166bc46b616",
+  "active": "6176c1842d1da6bc",
   "lastOpenFiles": [
+    "Alerts/Alerts.md",
+    "Views/Struct Views Vs. Class Views.md",
+    "Views",
     "Untitled 4.md",
     "Gradient/RadialGradient.md",
     "Alerts",
-    "Alerts/Alerts.md",
     "Gradient",
     "10x10.md",
     "CODE SNIPPETS/Color-Grid.swift",
@@ -467,7 +481,6 @@
     "Untitled 1.md",
     "Error Handling/README.md",
     "CODE SNIPPETS/Day12.swift",
-    "CODE SNIPPETS/Contents.swift",
     "Other/README.md",
     "Pasted image 20230622122013.png",
     "Pasted image 20230622121828.png",
@@ -486,7 +499,6 @@
     "d.md",
     "100 Days of SwiftUI/Day 5 - Conditions.md",
     "100 Days of SwiftUI/Day 4 - Complex Data Types, part 2.md",
-    "UserDefaults/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
