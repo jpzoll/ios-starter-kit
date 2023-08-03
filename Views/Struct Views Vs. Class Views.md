@@ -65,3 +65,27 @@ extension ViewBuilder {
     /// implementation of the required ``View/body-swift.property`` property.
     public typealias Body = Never
 }```
+
+# Environment Modifiers
+A modifier that is applied to a view container holding multiple views. For example, if we hae a stack containing a bunch of Text views that we all want to be green, it would be a hassle and hurt the code quality to apply a bunch _foregroundColor(.green)_ over and over again.  
+  
+For this reason, we can just apply the modifier to the VStack:
+```swift
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+            Text("Word")
+        }
+        .foregroundColor(.green)
+    }
+}
+```
