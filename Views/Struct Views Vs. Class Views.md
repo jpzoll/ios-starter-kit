@@ -89,3 +89,8 @@ struct ContentView: View {
     }
 }
 ```
+# Views as Properties
+Ways you can represent a view in the same way as **body**:
+1. Computed property with VStack of views
+2. Computed property witih **Group** of views
+3. @ViewBuilder computed property of views
