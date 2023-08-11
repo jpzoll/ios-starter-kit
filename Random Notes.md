@@ -1,0 +1,1 @@
+- When I want to reset a game AFTER an alert has been created, I can insert a dismissButton parameter that is of a button type. Buttons have a closure that handles the logic followed by clicking one. Therefore, the dismiss button clicked can handle the postgame logic
