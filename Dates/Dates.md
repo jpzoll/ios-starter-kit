@@ -6,3 +6,20 @@ This gives a similar style of date:
 ```swift
 Text(Date.now.formatted(date: .abbreviated, time: .omitted))
 ```
+
+# How to extract numerical data from a date
+Say we have a date, let's use the date right now:
+```swift
+let myDate = Date.now
+```
+If I want to get the month, day, and year for the date now, we can use the following:
+```swift
+let dateComponents = Calendar.current.dateComponents([.month, .day, .year], from: myDate)
+
+// From here, do whatever you want. This demo prints them out
+
+print(dateCompoments.month ?? 0)
+print(dateCompoments.day ?? 0)
+print(dateCompoments.year ?? 0)
+```
+We use nil-coalescing because it returns an optional Int.
