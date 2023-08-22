@@ -23,3 +23,11 @@ print(dateCompoments.day ?? 0)
 print(dateCompoments.year ?? 0)
 ```
 We use nil-coalescing because it returns an optional Int.
+
+# How to find the no. of days between 2 dates
+```swift
+var daysLeft: Int {
+	let secondsInDay = 86400
+	return Int(date.timeIntervalSince(Date.now) / 86400)
+}```
+There are 86,400 seconds in a day. When we use the **timeIntervalSince** method for dates, we can find the number of seconds between two dates. From there, we can divide that value by 86,400 to get the number of days between two dates.
