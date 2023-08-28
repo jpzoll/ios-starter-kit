@@ -4,3 +4,34 @@ Say we have a Transaction struct with an amt attribute that represents the amoun
 ```swift
 Text(transaction.amt, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
 ```
+# How To Create Unit Testing File
+1. New
+2. Target
+3. Search for *Test*
+4. Click **Unit Testing Bundle**
+5. Use the following to import your app and its data. For example, if my app is called *MoneyTracker*:
+```swift
+import XCTest
+@testable import MoneyTracker // Here is where you import your app
+
+
+/*
+The following is an example unit test I did for learning purposes of a simple money tracking app
+*/
+
+final class TransactionTests: XCTestCase {
+    
+    func testSuccessfulTransactionProcess() {
+        let transactionProcessor = TransactionProcessor()
+        var transactions = [Transaction]()
+        
+		transactionProcessor.processTransaction("Lottery", "Income", 1_000_000, &transactions)
+        
+        XCTAssertEqual(transactions.count, 1)
+        XCTAssertEqual(transactions[0].name, "Lottery")
+        XCTAssertEqual(transactions[0].type, "Income")
+        XCTAssertEqual(transactions[0].amt, 1_000_000)
+    }
+
+}
+```
