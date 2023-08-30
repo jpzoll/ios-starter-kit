@@ -70,3 +70,44 @@ struct ContentView: View {
 
 The key to this is the ***interpolatingSpring*** animation used as the last modifier of the "Tap Me" Button.
 ##### If you want to make the ball spring forever and never stop, assign the damping value to 0.
+
+# How to make a circle clicking animation on a button
+```swift
+struct ContentView: View {
+    @State private var animationLvl = 1.0
+    @State private var isIncreasing = true
+    var body: some View {
+        VStack {
+            Button("Tap Me") {
+                if isIncreasing && animationLvl < 5 {
+                    animationLvl += 1
+                } else if isIncreasing && animationLvl >= 5 {
+                    isIncreasing = false
+                    animationLvl -= 1
+                } else if !isIncreasing && animationLvl > 1 {
+                    animationLvl -= 1
+                } else if !isIncreasing && animationLvl <= 1 {
+                    isIncreasing = true
+                    animationLvl += 1
+                }
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundColor(.white)
+            .clipShape(Circle())
+            .overlay (
+                Circle()
+                    .stroke(.red)
+                    .background(Circle().foregroundColor(Color.blue.opacity(4 - animationLvl)))
+                    .scaleEffect(animationLvl)
+                    .opacity(2 - animationLvl)
+                    .animation(.easeOut(duration: 1).repeatForever(autoreverses: false), value: animationLvl)
+                
+            )
+        }
+        .onAppear {
+            animationLvl = 2
+        }
+        .padding()
+    }
+}```
