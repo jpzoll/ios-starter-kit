@@ -69,3 +69,4 @@ struct ContentView: View {
 }```
 
 The key to this is the ***interpolatingSpring*** animation used as the last modifier of the "Tap Me" Button.
+##### If you want to make the ball spring forever and never stop, assign the damping value to 0.
