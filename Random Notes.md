@@ -111,3 +111,14 @@ struct ContentView: View {
         .padding()
     }
 }```
+
+# Animating Bindings
+Inspiration comes from the following section in 100 Days of SwiftUI: [https://www.hackingwithswift.com/books/ios-swiftui/animating-bindings]
+
+In addition to animating our views, we can also manipulate value bindings to animate changes of their values as they happen. For instance, we can animate number value increases or decreases in a int or double or even a boolean change from true to false / false to true.
+
+*How is this possible?*
+
+This is possible because in these types of animations, the bindings know that the value change will trigger an animation, as we will see in the upcoming example. SwiftUI looks at the exact value of the binding before and after the change, and in between applies the animation that gets it from the original value to the new value.
+
+This is different from animations applied to views, where in that case views understand that they are being animated and State variables are NOT aware of that. The vice versa is true here: Bindings know that the state change will trigger an animation and the views are NOT aware of that.

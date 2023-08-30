@@ -342,30 +342,6 @@
             }
           },
           {
-            "id": "018b187f087a5bbe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI Object Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11fddf4b5ad193d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SwiftUI Object Directory.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e1959df280b48416",
             "type": "leaf",
             "state": {
@@ -405,16 +381,14 @@
             "id": "89271d779106c283",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Random Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20230712112454.png"
               }
             }
           }
         ],
-        "currentTab": 33
+        "currentTab": 31
       }
     ],
     "direction": "vertical"
@@ -443,7 +417,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "animation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -480,7 +454,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Random Notes.md",
+                "file": "Pasted image 20230712112454.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -497,7 +471,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Random Notes.md",
+                "file": "Pasted image 20230712112454.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -520,7 +494,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Random Notes.md"
+                "file": "Pasted image 20230712112454.png"
               }
             }
           }
@@ -543,17 +517,20 @@
   },
   "active": "89271d779106c283",
   "lastOpenFiles": [
-    "Gradient/RadialGradient.md",
+    "iOS Development Revision Table.md",
+    "Pasted image 20230712112454.png",
+    "Untitled 4.md",
+    "Pasted image 20230622121828.png",
+    "Pasted image 20230602122817.png",
     "Random Notes.md",
+    "Gradient/RadialGradient.md",
     "Untitled 1.md",
     "Text/Text.md",
     "Text",
     "Strings/Strings.md",
     "Dates/Dates.md",
     "Strings",
-    "SwiftUI Object Directory.md",
     "Other/Automatic Grammar Agreement.md",
-    "Untitled 4.md",
     "Dates",
     "Error Handling/README.md",
     "CODE SNIPPETS/SleepCount.swift",
@@ -574,11 +551,8 @@
     "Classes/README.md",
     "Other/README.md",
     "Pasted image 20230622122013.png",
-    "Pasted image 20230622121828.png",
-    "Pasted image 20230602122817.png",
     "Loops/README.md",
     "Structs & Classes/README.md",
-    "Pasted image 20230712112454.png",
     "Untitled.md",
     "100 Days of SwiftUI/Day 8 - Closures.md",
     "Errors/README.md",
