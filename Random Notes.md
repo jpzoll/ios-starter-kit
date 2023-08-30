@@ -35,3 +35,37 @@ final class TransactionTests: XCTestCase {
 
 }
 ```
+# How To Make a "Springing Ball" Animation as a Button
+```swift
+struct ContentView: View {
+    @State private var animationLvl = 1.0
+    @State private var isIncreasing = true
+    var body: some View {
+        VStack {
+            Button("Tap Me") {
+                if isIncreasing && animationLvl < 5 {
+                    animationLvl += 1
+                } else if isIncreasing && animationLvl >= 5 {
+                    isIncreasing = false
+                    animationLvl -= 1
+                } else if !isIncreasing && animationLvl > 1 {
+                    animationLvl -= 1
+                } else if !isIncreasing && animationLvl <= 1 {
+                    isIncreasing = true
+                    animationLvl += 1
+                }
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundColor(.white)
+            .clipShape(Circle())
+            .scaleEffect(animationLvl)
+            .blur(radius: (animationLvl - 1) * 3)
+            .animation(.interpolatingSpring(stiffness: 500.0, damping: 1.0), value: animationLvl)
+            
+        }
+        .padding()
+    }
+}```
+
+The key to this is the ***interpolatingSpring*** animation used as the last modifier of the "Tap Me" Button.
