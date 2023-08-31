@@ -122,3 +122,32 @@ In addition to animating our views, we can also manipulate value bindings to ani
 This is possible because in these types of animations, the bindings know that the value change will trigger an animation, as we will see in the upcoming example. SwiftUI looks at the exact value of the binding before and after the change, and in between applies the animation that gets it from the original value to the new value.
 
 This is different from animations applied to views, where in that case views understand that they are being animated and State variables are NOT aware of that. The vice versa is true here: Bindings know that the state change will trigger an animation and the views are NOT aware of that.
+
+# Implicit Vs. Explicit Animation - Example 1
+**Uncomment each section individually to see how this colored rectangle differs in drag gesture behavior for an implicit and explicit animation**
+```swift
+struct ContentView: View {
+    @State private var draggingAmt = CGSize.zero
+    @State private var isEnabled = false
+
+    var body: some View {
+        LinearGradient(gradient: Gradient(colors: [.yellow, .orange]), startPoint: .topLeading, endPoint: .bottomTrailing)
+            .frame(width: 300, height: 200)
+            .cornerRadius(20)
+            .offset(draggingAmt)
+            .gesture(
+                DragGesture()
+                    .onChanged { draggingAmt = $0.translation}
+                    .onEnded { _ in
+        // EXPLICIT ANIMATION
+        //  * uncomment withAnimation
+                        //withAnimation {
+                            draggingAmt = .zero
+                        // }
+            })
+        // IMPLICIT ANIMATION
+        // * uncomment .animation
+            //.animation(.spring(), value: draggingAmt)
+    }
+}
+```
