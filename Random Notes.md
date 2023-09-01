@@ -151,3 +151,24 @@ struct ContentView: View {
     }
 }
 ```
+# Transitions - @twostraws Example
+## I want a Button and a red Rectangle. If I click the button, the rectangle either appears or disappears. I want the rectangle to size up into the frame if it's not there (like Ant-man) and fade away its opacity if it's already there.
+Here, we use an **asymmetric transition**:
+```swift
+struct ContentView: View {
+    @State private var isEnabled = false
+    
+    var body: some View {
+        Button("Tap me") {
+            withAnimation {
+                isEnabled.toggle()
+            }
+        }
+        if isEnabled {
+            Rectangle()
+                .fill(.red)
+                .frame(width: 200, height: 200)
+                .transition(.asymmetric(insertion: .scale, removal: .opacity))
+        }
+    }
+}```
