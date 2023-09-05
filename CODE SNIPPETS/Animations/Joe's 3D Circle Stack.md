@@ -44,7 +44,7 @@ struct ContentView: View {
 }```
 
 
-[![Alt Text](circleStack.gif)](circleStack.gif)
+[![Circle Stack](circleStack.gif)](circleStack.gif)
 
 
 ![[2023-09-05 11.23.23 1.gif]]
