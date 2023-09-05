@@ -45,6 +45,6 @@ struct ContentView: View {
 
 
 
-![circleStack](https://raw.githubusercontent.com/jpzoll/ios-starter-kit/main/CODE%20SNIPPETS/Animations/img/circleStack.gif)
+![circleStack](https://github.com/jpzoll/ios-starter-kit/blob/main/CODE%20SNIPPETS/Animations/img/circleStack.gif)
 
 
