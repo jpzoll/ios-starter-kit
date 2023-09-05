@@ -431,7 +431,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -504,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -521,7 +521,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,7 +544,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md"
+                "file": "README.md"
               }
             }
           }
@@ -567,16 +567,16 @@
   },
   "active": "6625d7e3c9bcc988",
   "lastOpenFiles": [
+    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+    "README.md",
     "Untitled.md",
     "CODE SNIPPETS/Animations/img",
-    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
     "CODE SNIPPETS/Animations/img/circleStack.gif",
     "Helpful Extensions.md",
     "Pasted image 20230602122817.png",
     "Pasted image 20230622121828.png",
     "Pasted image 20230712112454.png",
     "Random Notes.md",
-    "README.md",
     "Protocols/README.md",
     "2023-09-05 11.23.23 1.gif.md",
     "circleStack.md",
