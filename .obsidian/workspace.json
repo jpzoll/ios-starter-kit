@@ -431,7 +431,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -504,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -521,7 +521,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -544,7 +544,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md"
               }
             }
           }
@@ -565,11 +565,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8fc83aa992acaf73",
+  "active": "6625d7e3c9bcc988",
   "lastOpenFiles": [
+    "Untitled.md",
     "CODE SNIPPETS/Animations/img",
     "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
-    "Untitled.md",
     "CODE SNIPPETS/Animations/img/circleStack.gif",
     "Helpful Extensions.md",
     "Pasted image 20230602122817.png",
@@ -608,7 +608,6 @@
     "Gradient",
     "10x10.md",
     "CODE SNIPPETS/Color-Grid.swift",
-    "Picker",
     "Pasted image 20230622122013.png",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
