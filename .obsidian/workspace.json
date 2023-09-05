@@ -455,7 +455,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ".png",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -472,8 +472,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -556,10 +555,10 @@
   },
   "active": "1784528acf0414f4",
   "lastOpenFiles": [
+    "CODE SNIPPETS/Animations/2023-09-05 11.23.23 1.gif",
+    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
     "ListView/README.md",
     "UserDefaults/README.md",
-    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
-    "CODE SNIPPETS/Animations/2023-09-05 11.23.23 1.gif",
     "2023-09-05 11.23.23.gif",
     "Arrays, Sets, Dicts, Tuples/Untitled.md",
     "Helpful Extensions.md",
@@ -597,7 +596,6 @@
     "Classes/README.md",
     "Other/README.md",
     "Pasted image 20230622122013.png",
-    "Loops/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
