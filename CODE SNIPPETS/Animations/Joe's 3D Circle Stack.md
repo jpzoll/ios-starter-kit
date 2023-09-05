@@ -42,6 +42,6 @@ struct ContentView: View {
         }
     }
 }```
+![circleStack](https://github.com/jpzoll/ios-starter-kit/assets/55609216/10a19f2d-01a7-434e-9570-12cb13e4f2d5)
 
 
-[![Circle Stack](circleStack.gif)](circleStack.gif)
