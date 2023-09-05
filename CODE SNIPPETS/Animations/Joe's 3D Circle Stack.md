@@ -43,4 +43,5 @@ struct ContentView: View {
     }
 }```
 
+<img src="obsidian://open?vault=ios-starter-kit&file=CODE%20SNIPPETS%2FAnimations%2F2023-09-05%2011.23.23%201.gif" width="325">
 ![[2023-09-05 11.23.23 1.gif]]
