@@ -419,7 +419,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Helpful Extensions.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "mode": "source",
                 "source": false
               }
@@ -492,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Helpful Extensions.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -509,7 +509,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Helpful Extensions.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -532,7 +532,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Helpful Extensions.md"
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md"
               }
             }
           }
@@ -555,6 +555,8 @@
   },
   "active": "1784528acf0414f4",
   "lastOpenFiles": [
+    "CODE SNIPPETS/Animations/circleStack.gif",
+    "Helpful Extensions.md",
     "Pasted image 20230602122817.png",
     "Pasted image 20230622121828.png",
     "Pasted image 20230712112454.png",
@@ -562,7 +564,6 @@
     "README.md",
     "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
     "Protocols/README.md",
-    "CODE SNIPPETS/Animations/circleStack.gif",
     "2023-09-05 11.23.23 1.gif.md",
     "circleStack.md",
     "CODE SNIPPETS/Animations/2023-09-05 11.23.23 1.gif",
@@ -571,7 +572,6 @@
     "UserDefaults/README.md",
     "2023-09-05 11.23.23.gif",
     "Arrays, Sets, Dicts, Tuples/Untitled.md",
-    "Helpful Extensions.md",
     "CODE SNIPPETS/Animations",
     "iOS Development Revision Table.md",
     "Untitled 4.md",
