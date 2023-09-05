@@ -42,3 +42,4 @@ struct TenDayWindSpeedView: View {
 ```
 <img src="img/10DayForecast.png" width="325">
 
+
