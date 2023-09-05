@@ -400,9 +400,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7f27059d1aaeebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arrays, Sets, Dicts, Tuples/Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1784528acf0414f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 32
+        "currentTab": 34
       }
     ],
     "direction": "vertical"
@@ -468,7 +492,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Helpful Extensions.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -485,7 +509,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Helpful Extensions.md",
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -508,7 +532,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Helpful Extensions.md"
+                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md"
               }
             }
           }
@@ -529,11 +553,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4dc76d6c0c966b8",
+  "active": "1784528acf0414f4",
   "lastOpenFiles": [
-    "Random Notes.md",
+    "2023-09-05 11.23.23 1.gif",
+    "2023-09-05 11.23.23.gif",
+    "Arrays, Sets, Dicts, Tuples/Untitled.md",
+    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
     "Helpful Extensions.md",
-    "Untitled",
+    "CODE SNIPPETS/Animations",
+    "Random Notes.md",
     "Pasted image 20230712112454.png",
     "iOS Development Revision Table.md",
     "Untitled 4.md",
@@ -568,8 +596,6 @@
     "Pasted image 20230622122013.png",
     "Loops/README.md",
     "Structs & Classes/README.md",
-    "100 Days of SwiftUI/Day 8 - Closures.md",
-    "Errors/README.md",
     "ListView/img/10DayForecast.png",
     "10DayForecast.png"
   ]
