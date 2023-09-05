@@ -424,9 +424,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6625d7e3c9bcc988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 34
+        "currentTab": 35
       }
     ],
     "direction": "vertical"
@@ -492,7 +504,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -509,7 +521,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -532,7 +544,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -553,16 +565,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1784528acf0414f4",
+  "active": "8fc83aa992acaf73",
   "lastOpenFiles": [
-    "CODE SNIPPETS/Animations/circleStack.gif",
+    "CODE SNIPPETS/Animations/img",
+    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
+    "Untitled.md",
+    "CODE SNIPPETS/Animations/img/circleStack.gif",
     "Helpful Extensions.md",
     "Pasted image 20230602122817.png",
     "Pasted image 20230622121828.png",
     "Pasted image 20230712112454.png",
     "Random Notes.md",
     "README.md",
-    "CODE SNIPPETS/Animations/Joe's 3D Circle Stack.md",
     "Protocols/README.md",
     "2023-09-05 11.23.23 1.gif.md",
     "circleStack.md",
@@ -594,7 +608,6 @@
     "Gradient",
     "10x10.md",
     "CODE SNIPPETS/Color-Grid.swift",
-    "Picker/Simple Name Picker.md",
     "Picker",
     "Pasted image 20230622122013.png",
     "ListView/img/10DayForecast.png",
