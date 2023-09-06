@@ -31,7 +31,7 @@ struct ContentView: View {
                             Circle()
                                 .stroke(lineWidth: 10)
                         )
-                        .frame(width: CGFloat(i * 50), height: CGFloat(i * 50)) Joe's 3D Circle Stack
+                        .frame(width: CGFloat(i * 50), height: CGFloat(i * 50))
                         
                         .rotation3DEffect(.degrees(60), axis: (x: 1, y: 0, z: 0))
                         .padding(CGFloat(i * -20))
